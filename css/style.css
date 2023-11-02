@@ -213,7 +213,7 @@ a:hover {
     cursor: pointer;
     font-size: 16px;
     margin-top: 40px;
-    margin-left: -90px;
+    margin-left: -100px;
 }
 
 
@@ -432,7 +432,7 @@ input[type=text], select, textarea {
 
 .social-icons li {
     margin: 0 -50px;
-    margin-left: -90px;
+    margin-left: -70px;
 }
 
 .social-icons img {
