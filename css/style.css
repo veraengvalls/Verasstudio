@@ -1,0 +1,590 @@
+body {
+    height: 500px;
+    background-color:rgb(42, 42, 42);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("../images/header5");
+    position: absolute;
+
+ } 
+
+    .header {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%; 
+        height: auto;  
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .header-bokamig {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%; 
+        height: auto;  
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+  
+
+    .menyrad {
+        position: absolute;
+        margin-right: 20px;
+        right: 20px;
+        margin-left: 1000px;
+    
+    }
+
+    .menyrad2 {
+        position:relative; 
+        margin-left: 1000px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        
+    }
+    .menyrad3 {
+        position:relative; 
+        margin-left: 1000px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+
+    }
+
+
+li {
+    display: inline;
+    
+}
+
+a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+    z-index: 1;
+    float: left;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+a:hover {
+    border-color: #b2b2b2;
+    
+    }
+
+
+.myframe {
+    width: 100vw;
+    height: 70vh;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.overlay-image img {
+    width: 50%; 
+    display: block;
+}
+
+.namn {
+    position: absolute;
+    top: 110%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white; 
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+
+.underrubrik {
+    position: absolute;
+    top: 130%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white; 
+    font-size: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery {
+    justify-content: center;
+    padding-top: 50;
+    padding: 10px;
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow:scroll;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+ 
+
+}
+
+.gallery-item img {
+    display:flex;
+    width: 97%;
+    height: auto;
+    padding: 1px;
+    flex-wrap: inline-flex;
+    flex: wrap;
+}
+
+.portfolio-rubrik {
+    color: white;
+}
+
+.knapp-container {
+    position: relative;
+    text-align: center;
+    margin-top: -50px; /* Justera detta värde för att placera knappen över headern */
+}
+
+.knapp-container3 {
+    position: relative;
+    text-align: center;
+    margin-top: -50px; /* Justera detta värde för att placera knappen över headern */
+}
+
+.flytande-knapp {
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 750px;
+    margin-left: -90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flytande-knapp2 {
+    position: absolute;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: -90px;
+}
+
+
+.flytande-knapp3 {
+    position: absolute;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: -90px;
+}
+
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(145, 145, 145);
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 240px;
+    background-color: rgb(145, 145, 145);
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 350px;
+   
+    
+  }
+
+  
+
+  .footertext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: -40px;
+}
+
+.footertext2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -40px;
+    margin-top: -30px;
+    font-size: xx-small; 
+}
+  .flex-container {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1555px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;  
+    height: 350px; 
+    padding-bottom: 1px;
+    margin-bottom: -300px;
+}
+
+/* Mediaförfrågningar för att anpassa flex-container för olika skärmstorlekar */
+@media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Ändrar riktningen till kolumn för mindre skärmar */
+        height: auto; /* Höjden justeras automatiskt */
+        margin-bottom: 0; /* Återställ marginen för mindre skärmar */
+    }
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1555px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #dedede;  
+    height: 950px; 
+    padding-bottom: 1px;
+    margin-bottom: -300px;
+}
+
+/* Mediaförfrågningar för att anpassa flex-container för olika skärmstorlekar */
+@media screen and (max-width: 768px) {
+    .flex-container3 {
+        flex-direction: column; /* Ändrar riktningen till kolumn för mindre skärmar */
+        height: auto; /* Höjden justeras automatiskt */
+        margin-bottom: 0; /* Återställ marginen för mindre skärmar */
+    }
+}
+
+.media1 {
+    width: 490px;
+    
+}
+
+.media,
+.text {
+    flex: 1;
+    padding: 1px;
+}
+
+
+.media video,
+.media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.media img {
+    width: 490px;
+    height: 281px;
+    margin-left: 55px;
+}
+
+.indextext {
+    color: #3b3b3b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+
+}
+
+.indextext2 {
+    color: #3b3b3b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    margin: 50px;;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 10px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #444444;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #737373;
+  }
+  
+ 
+  .container-bokamig {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
+    margin-bottom: 100px;
+  }
+
+  .bokningsformular {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .bokningsformular2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .price-list {
+    display:inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.price-box {
+    width: 250px;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: 110px;
+    
+    
+}
+
+.prislista {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    
+}
+
+.pristext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.paket {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.social-icons li {
+    margin: 0 -50px;
+    margin-left: -90px;
+}
+
+.social-icons img {
+    width: 30px; /* Justera ikonstorlek efter behov */
+    height: auto;
+}
+
+.motteamet {
+    color: #2d2d2d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.motteamet2 {
+    color: #343434;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-top: 50px;
+    padding-left: -70px;
+    text-align: center;
+    
+}
+
+.flex-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dedede;
+    
+}
+
+.team-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: -740px;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.column {
+    width: 25%; /* Justera bredden efter behov */
+    margin: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); 
+    align-self: flex-start;
+    background-color: #fff;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 700;
+}
+
+.beskrivning {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.beskrivning2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+
+.titelnamn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #343434;
+}
+ 
+.container {
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    background-color: #f2f2f2; /* Byt ut färgen efter ditt önskemål */
+}
+
+
+.question:hover {
+    background-color: #f9f9f9;
+}
+
+.plus {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.answer {
+    display: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.answer.show {
+    display: block;
+}
+
+.frågetitel {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textfråga {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+.container5 {
+    width: 55%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #dedede;
+    margin-left: 350px;
+    margin-top: 40px;
+    border-radius: 70px;
+}
+
+.mejladressen {
+    color: #343434;
+    text-align: center;
+    margin-left:90px;
+}
